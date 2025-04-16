@@ -42,4 +42,7 @@
             <data android:mimeType="text/plain"/>
         </intent>
     </queries>
+  
 </manifest>
+<!-- This file is auto-generated, do not edit. -->
+<!-- See android/app/src/main/AndroidManifest.xml for more information. -->

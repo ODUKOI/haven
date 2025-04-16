@@ -8,7 +8,7 @@ class FeatureItem extends StatelessWidget {
     Key? key,
     required this.data,
     this.width = 200,
-    this.height = 200,
+    this.height = 300,
     this.onTap,
     this.onTapFavorite,
   }) : super(key: key);
@@ -82,7 +82,7 @@ class FeatureItem extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          // crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
               data["type"],
@@ -121,7 +121,7 @@ class FeatureItem extends StatelessWidget {
     return CustomImage(
       data["image"],
       width: double.infinity,
-      height: 190,
+      height: 150,
       radius: 15,
     );
   }

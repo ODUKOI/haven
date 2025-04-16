@@ -1,0 +1,21 @@
+if you using ethernet from the phone
+run Ipconfig on you cmd
+get the Ethernet adapter vEthernet (Default Switch):
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::7281:d990:c274:837c%34
+   IPv4 Address. . . . . . . . . . . : 172.31.160.1
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+   Default Gateway . . . . . . . . . :
+
+get the IPv4 Address and take it to the baseUrl
+baseUrl: 'http://192.168.150.133:8000/api/',
+
+run this on the cmd terminal of laravel
+php artisan serve --host=0.0.0.0 --port=8000
+This tells Laravel to accept connections from other devices (not just localhost).
+
+flutter run
+
+
+ we  set up an AuthService with Riverpod for state management
